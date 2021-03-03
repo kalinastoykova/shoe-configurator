@@ -1,0 +1,31 @@
+body {
+    overflow: hidden;
+}
+
+#svg-container {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.color-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#color-box-container {
+    transform: scale(.4);
+}
+
+.g-interactive {
+    fill: transparent;
+}
+
+path {
+    stroke-width: 3px;
+}
+
+#Shadow_Image {
+    pointer-events: none;
+}
+
+
